@@ -1,0 +1,3 @@
+* Compile it as a dynamic link library (DLL).
+* Port the latest version of GMP.
+
