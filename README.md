@@ -1,7 +1,6 @@
-gmp-win32 - a Win32 port of GMP
-Patroklos Argyroudis <_ at domain argp.gr>
+# gmp-win32 - a Win32 port of GMP
 
-Introduction 
+## Introduction 
 
 This is a collection of the files that I modified in order to get the
 GNU Multiple Precision Arithmetic Library (GMP) version 3.1.1 to compile
@@ -9,7 +8,7 @@ on Windows 32.  Please note that this port has no dependencies on third
 party software.  Also, I have only tested it on a Windows XP machine with
 MS Visual Studio .NET 2003.
 
-Compilation and installation
+## Compilation and installation
 
 To compile it just copy the files provided here to the distribution
 directory of GMP 3.1.1 and overwrite the existing files there, then simply
@@ -20,4 +19,3 @@ your library path.  When you are using it in MSVC++ to compile new programs
 don't forget to define _NTRG_WIN32_, include gmp.h and link against gmp.lib.
 
 In the directory bin/ you can find a pre-compiled version.
-
